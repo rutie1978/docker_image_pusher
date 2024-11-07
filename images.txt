@@ -1,8 +1,9 @@
 nginx
 ollama/ollama
 mariadb:10.6
-zero-op
-frp
+#zero-op
+joplin/server:latest
+snowdreamtech/frpc:latest
 #redis:6.2-alpine
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
