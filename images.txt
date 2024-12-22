@@ -1,12 +1,18 @@
-nginx
-ollama/ollama
-mariadb:10.6
+#nginx
+#ollama/ollama
+#mariadb:10.6
 #zero-op
-joplin/server:latest
-snowdreamtech/frpc:latest
+#joplin/server:latest
+#snowdreamtech/frpc:latest
 #redis:6.2-alpine
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
+# paperless-ngx 所需镜像 by 2024.12.23
+apache/tika:latest
+gotenberg/gotenberg:7.10
+paperlessngx/paperless-ngx:latest
+library/postgres:15
+library/redis:7
